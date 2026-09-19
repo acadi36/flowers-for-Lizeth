@@ -1600,8 +1600,12 @@ body {
 }
 
 .right-image {
-  right: 8%; /* Separación desde el borde derecho */
-  animation-delay: 4s; /* Aparece medio segundo después que la izquierda */
+  right: 8%;
+  animation-delay: 4s;
+  
+  /* --- NUEVOS AJUSTES --- */
+  max-width: 15vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
+  top: 75%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
 }
 
 /* Efecto de desvanecimiento y ligero zoom */
