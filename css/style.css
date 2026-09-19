@@ -10,7 +10,6 @@
   --dark-color: #010113;
 }
 
-
 .title {
   position: absolute;
   width: 100%;
@@ -33,6 +32,7 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
+
 .night {
   position: fixed;
   left: 50%;
@@ -1565,4 +1565,4 @@ body {
 .not-loaded * {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
-} /*# sourceMappingURL=main.css.map */
+}
