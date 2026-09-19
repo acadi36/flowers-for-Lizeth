@@ -1566,3 +1566,52 @@ body {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
 }
+
+/* --- IMÁGENES LATERALES --- */
+.side-images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Evita que las imágenes bloqueen clics en otros elementos */
+  z-index: 5; /* Detrás de las flores (que tienen z-index 10) pero delante del fondo */
+}
+
+.side-image {
+  position: absolute;
+  top: 50%;
+  max-width: 22vw;
+  opacity: 0;
+  transform: translateY(-50%) scale(0.9);
+  animation: soft-appear 3s ease-in-out forwards;
+  
+  /* ELIMINAR O COMENTAR ESTAS LÍNEAS RECTANGULARES: */
+  /* border-radius: 15px; */
+  /* box-shadow: 0 0 25px rgba(255, 255, 255, 0.15); */
+
+  /* AGREGAR ESTA LÍNEA PARA SILUETAS: */
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.4));
+}
+
+.left-image {
+  left: 8%; /* Separación desde el borde izquierdo */
+  animation-delay: 3s; /* Aparece justo cuando las flores terminan de crecer */
+}
+
+.right-image {
+  right: 8%; /* Separación desde el borde derecho */
+  animation-delay: 4s; /* Aparece medio segundo después que la izquierda */
+}
+
+/* Efecto de desvanecimiento y ligero zoom */
+@keyframes soft-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) scale(0.95);
+  }
+  100% {
+    opacity: 0.85; /* Se mantiene ligeramente transparente para mezclar con el fondo. Cambia a 1 para opacidad total */
+    transform: translateY(-50%) scale(1);
+  }
+}
