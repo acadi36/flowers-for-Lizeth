@@ -1604,7 +1604,7 @@ body {
   animation-delay: 4s;
   
   /* --- NUEVOS AJUSTES --- */
-  max-width: 15vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
+  max-width: 5vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
   top: 75%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
 }
 
