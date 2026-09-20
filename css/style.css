@@ -1580,8 +1580,8 @@ body {
 
 .side-image {
   position: absolute;
-  top: 50%;
-  max-width: 22vw;
+  top: 42%;
+  max-width: 26vw;
   opacity: 0;
   transform: translateY(-50%) scale(0.9);
   animation: soft-appear 3s ease-in-out forwards;
@@ -1604,8 +1604,8 @@ body {
   animation-delay: 4s;
   
   /* --- NUEVOS AJUSTES --- */
-  max-width: 5vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
-  top: 75%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
+  max-width: 10vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
+  top: 70%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
 }
 
 /* Efecto de desvanecimiento y ligero zoom */
