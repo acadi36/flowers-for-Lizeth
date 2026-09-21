@@ -1604,8 +1604,8 @@ body {
   animation-delay: 4s;
   
   /* --- NUEVOS AJUSTES --- */
-  max-width: 10vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
-  top: 70%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
+  max-width: 12vw; /* Cambia este valor (el general es 22vw). Menos vw = más pequeño */
+  top: 50%; /* Aumenta el porcentaje para mover la imagen hacia abajo (50% es el centro) */
 }
 
 /* Efecto de desvanecimiento y ligero zoom */
