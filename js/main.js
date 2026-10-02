@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Que tengas un bonito dia').split('')
+    const titles = ('Para mi persona especial Pnady').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
